@@ -5,7 +5,7 @@ import InfoSection from '../components/InfoSection'
 import CategorySection from '../components/CategorySection'
 import { setProducts } from '../redux/productSlice'
 import { useDispatch,useSelector } from 'react-redux'
-import ProductCard from '../components/productCard'
+import ProductCard from '../components/ProductCard'
 import Shop from './Shop'
 function Home() {
     const dispatch =useDispatch()
